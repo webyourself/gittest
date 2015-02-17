@@ -11,4 +11,6 @@ echo '<br />Data: '. date("r", time());
 
 // dodajmy komentarz testowy
 
+// kolejny komentarz
+
 ?>
