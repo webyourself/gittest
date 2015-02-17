@@ -3,10 +3,12 @@
 echo 'Date: '. date("r", $_GET['q']);
 
 echo '<br />';
-echo 'Strtotime: '. strtotime($_GET['q']);
+echo 'Strtotime x: '. strtotime($_GET['q']);
 
 echo '<br />';
-echo 'time(): '. time();
+echo 'Wywolane funkcji time(): '. time();
 echo '<br />Data: '. date("r", time());
+
+// dodajmy komentarz testowy
 
 ?>
